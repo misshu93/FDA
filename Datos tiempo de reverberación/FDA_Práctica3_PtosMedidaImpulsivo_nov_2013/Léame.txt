@@ -1,0 +1,14 @@
+En esta carpeta se dispone de los datos recogidos en la prática de tiempo de reverberación.
+
+Trabajamos con 2 puntos de medida: posA y posB.
+
+En cada punto de medida realizamos 2 medidas consecutivas: 1 y 2.
+
+Para cada punto y para cada medida, repetimos el porcedimiento con abssorbente extra en la sala(ejemplo: Práctica3_abs_posA_imp_1)  y sin él(ejemplo: Práctica3_posA_imp_1).
+
+En cada subcarpeta se pueden consultar los datos en excel de tiempo de reverberación de cada punto(tr60), y de la caída de nivel(levels).
+
+Además pudes acceder a los datos de calidad de la medida en cada punto. Son capturas de imagen de SAMURAI.
+
+
+

@@ -139,7 +139,7 @@ def promediado_espacial(A,B,C):
 
 def tr_lista(hoja):
 	mi_hoja = hoja.sheet_by_index(1)
-	return row2list(mi_hoja.row(1)[1:])
+	return row2list(mi_hoja.row(2)[1:])
 
 def promedio_tr(A1,A2):
 	total = []
@@ -153,7 +153,7 @@ def promedio_total_tr(A,B):
 	total = []
 
 	for n in range(len(A)):
-		valor = ((A[n]+B[n])/2)*4
+		valor = (A[n]+B[n])/2
 		total.append(round(valor,1))
 
 	return total
@@ -254,6 +254,9 @@ if __name__ == "__main__":
 	TR15A2 = tr_lista(hoja_A2)
 	TR15B1 = tr_lista(hoja_B1)
 	TR15B2 = tr_lista(hoja_B2)
+
+	#print "PRUEBAAAAAAAAAAAAAAAA"
+	#print TR15B2
 
 	TR15A = promedio_tr(TR15A1,TR15A2)
 	TR15B = promedio_tr(TR15B1,TR15B2)
